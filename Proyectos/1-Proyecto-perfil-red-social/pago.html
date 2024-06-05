@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="stylos.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda en Linea</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <article>
+                
+                <form>
+                    <h2>Detalles de la Tarjeta de Credito</h2>
+                    <label for="nombre">Nombre de la Tarjeta: </label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <P></P>
+                    <label for="numerotarjeta">Numero de la Tarjeta: </label>
+                    <input type="number" id="numerotarjeta" name="numerotarjeta" required>
+                    <P></P>
+                    <label for="fecha">Fecha de Vencimiento: </label>
+                    <input type="number" id="fecha" name="fecha" required>
+                    <P></P>
+                    <label for="codigo">Codigo CVV: </label>
+                    <input type="number" id="codigo" name="codigo" required>
+                    
+                    <p></p>
+                    <label for="tipo">Tipo de Tarjeta</label>
+                    <select name="tipo" id="tipo">
+                        <option value="Visa">Visa</option>
+                        <option value="mastercard">Master Card</option>
+                        <option value="americanexpress">American Express</option>
+                        <option value="dinersclub">Diners Club</option>
+                    </select>
+
+                    <p></p>
+                    <label for="cantidad">Cantidad a Pagar</label>
+                    <input type="number" id="cantidad" name="cantidad" placeholder="S/." step="0.01" required>
+
+                    <p></p>
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion" name="direccion"  required>
+
+                    <p></p>
+                    <label for="promo">Codigo Promocional:</label>
+                    <input type="text" id="promo" name="promo"  required>
+
+                    <p></p>
+                    <label for="terminos">
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        <p>Acepto los Terminos y Condiciones</p>
+                    </label>
+
+                    <input type="submit">
+
+                </form>
+            </article>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Tienda en Linea | Derechos Reservados  - Giovanni Medina</p>
+        </footer>
+</body>
+</html>
