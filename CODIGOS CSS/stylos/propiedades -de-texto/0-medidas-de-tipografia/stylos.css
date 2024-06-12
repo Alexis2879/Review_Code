@@ -1,0 +1,26 @@
+/*-- En css hay dos unidades de medidas las Relativas(las que dependen de algo o son variables y dependen de la caja contenedora)
+y las Fijas(son los pixeles px, los puntos pto, los centimetros... ) --*/
+
+/*esto es para restablecer los valores de la pagina a cero*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*contenedor principal*/
+/* .contact-form{
+    font-size: 20px;
+} */
+
+/*1em equivale a 16px*/
+/*cuando en el contenedor principal hay una medida de letra 1em ya no equivale a 16px ahora hereda 
+el tamaño del contenedor osea en este caso  equivale a 20px*/
+/*No solo hereda el tamaño de medida del contenedor principal sino que tambien hereda el margin, 
+padding.. todo lo que sea unidad de medida*/
+.contact-form__h2{
+    font-size: 25px;
+    background-color: #13d426;
+    width: 100vw;
+    height: 50vw;
+    /*vw ES UNA UNIDAD DE MEDIDA QUE ABARCA TODA LA PANTALLA*/
+}
