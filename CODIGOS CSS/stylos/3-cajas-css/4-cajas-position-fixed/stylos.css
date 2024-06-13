@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+} 
+
+/* .caja-fixed{
+    background-color: blueviolet;
+    position: fixed;
+    opacity: 0.5;
+    margin: -100px;
+} */
+
+.caja-fixed{
+    background: chocolate;
+    position: sticky;
+    /*opacity: 0.3;*/
+    top: -20px;
+}
