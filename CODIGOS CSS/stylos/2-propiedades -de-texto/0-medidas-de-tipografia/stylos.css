@@ -24,3 +24,16 @@ padding.. todo lo que sea unidad de medida*/
     height: 50vw;
     /*vw ES UNA UNIDAD DE MEDIDA QUE ABARCA TODA LA PANTALLA*/
 }
+
+p{
+    color: red;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: justify;
+    /*text-decoration: line-through;*/
+    line-height: 2;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
